@@ -1,16 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Moodle Confetti",
-  "description": "Adds much needed confetti to Moodle",
+  "description": "Adds much needed confetti to Moodle when submitting assignments.",
   "version": "1.0",
   "action": {
     "default_popup": "popup/index.html",
     "default_icon": "hello_extensions.png"
   },
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://lms.monash.edu/*"],
       "run_at": "document_end",
       "js": ["scripts/document_end.js"]
     }
@@ -18,7 +17,8 @@
   "web_accessible_resources": [
     {
       "resources": ["scripts/confetti.min.js", "scripts/main.js"],
-      "matches": ["<all_urls>"]
+      "matches": ["https://lms.monash.edu/*"]
     }
-  ]
+  ],
+  "icons": { "16": "images/icon16.ico", "48": "images/icon48.ico", "128": "images/icon128.ico" }
 }

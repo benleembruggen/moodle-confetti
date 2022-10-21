@@ -12,12 +12,12 @@ const confettiOnButton = (element) => {
 
 if (
   [...document.querySelectorAll('button')].find((btn) =>
-    btn.textContent.includes('Add submission')) !== undefined
+    btn.textContent.includes('Submit assignment')) !== undefined
 ) {
   jsConfetti = new JSConfetti();
 
   const element = [...document.querySelectorAll('button')].find((btn) =>
-    btn.textContent.includes('Add submission'));
+    btn.textContent.includes('Submit assignment'));
   element.setAttribute('type', 'button');
   element.setAttribute('onclick', 'confettiOnButton(this)');
 }
