@@ -3,7 +3,7 @@ Adds much needed confetti to Moodle when submitting you assignments.
 
 ![demo](https://raw.githubusercontent.com/benleembruggen/moodle-confetti/main/.github/demo.gif)
 
-## setup
+## Setup
 Please note that this extension currently work with Google Chrome.
 
 1. Install the extension by clicking the green 'Code' button above and selecting 'Download ZIP'
@@ -22,6 +22,6 @@ Please note that this extension currently work with Google Chrome.
 
 6. If you see the Moodle Confetti extension, everything is set up
 
-![img3](https://raw.githubusercontent.com/benleembruggen/moodle-confetti/main/.github/pic2.png)
+![img3](https://raw.githubusercontent.com/benleembruggen/moodle-confetti/main/.github/pic3.png)
 
 7. Submit you assignment and enjoy the celebrations 🥳
