@@ -1,10 +1,7 @@
 # moodle-confetti
 Adds much needed confetti to Moodle when submitting you assignments.
 
-
-GIF HERE
-
-
+![demo](https://raw.githubusercontent.com/benleembruggen/moodle-confetti/main/.github/demo.gif)
 
 ## setup
 Please note that this extension currently work with Google Chrome.
