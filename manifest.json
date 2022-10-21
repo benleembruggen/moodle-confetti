@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Moodle Confetti",
+  "description": "Adds much needed confetti to Moodle",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "js": ["scripts/document_end.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["scripts/confetti.min.js", "scripts/main.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
